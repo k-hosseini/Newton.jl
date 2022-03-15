@@ -43,10 +43,5 @@ function newtonroot(f;x₀,tol = 1E-7,maxiter = 1000)
     end
 end
 
-
-f(x) = 2+ x^2
-
-newtonroot(f, x₀=1)
-
 export newtonroot
 end
